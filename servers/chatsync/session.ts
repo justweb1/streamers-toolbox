@@ -1,16 +1,8 @@
+import { Session, Streamer } from './interface';
 
-interface Streamer {
-  username: string;
-  platform: 'twitch' | 'mixer' | 'twitter' | 'discord';
-}
-
-interface Session {
-  name: string;
-  streamers: Array<Streamer>;
-}
 
 export class ChatsyncSession {
-  sessions = [
+  sessions: Array<Session> = [
     {
       name: 'piratini',
       streamers: [
@@ -32,8 +24,8 @@ export class ChatsyncSession {
 
     if (this.sessions.map((value) => {
       console.log('value', value.name); // PROD: Remove for production.
-      return value.name = name;
-    })) {
+      return value.name;
+    }).includes(name)) {
       const error = `This session name \'${name}\' already exists.`;
       console.log('ERROR', error);
       result = error;
