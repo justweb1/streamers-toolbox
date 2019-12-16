@@ -5,6 +5,7 @@
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "outDir": ".dist/out-tsc",
     "target": "es5",
     "types": [
       "node"
