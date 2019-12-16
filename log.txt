@@ -1,0 +1,15 @@
+[Tue, 26 Nov 2019 16:42:27 GMT] [info] [<0.000.0>] ::1 - - GET / 200
+[Tue, 26 Nov 2019 16:42:46 GMT] [info] [<0.000.0>] ::1 - - GET /settings 404
+[Tue, 26 Nov 2019 16:50:10 GMT] [info] [<0.000.0>] ::1 - - GET /database-rxdb-0-settings 200
+[Tue, 26 Nov 2019 16:51:47 GMT] [info] [<0.000.0>] ::1 - - GET /database-rxdb-0-settings 200
+[Tue, 26 Nov 2019 16:55:58 GMT] [info] [<0.000.0>] ::1 - - GET /database-rxdb-0-settings 200
+[Tue, 26 Nov 2019 16:56:15 GMT] [info] [<0.000.0>] ::1 - - GET / 200
+[Tue, 26 Nov 2019 16:56:32 GMT] [info] [<0.000.0>] ::1 - - GET /database-rxdb-0-settings 304
+[Tue, 26 Nov 2019 16:57:50 GMT] [info] [<0.000.0>] ::1 - - GET /database-rxdb-0-settings/closeToTray 200
+[Tue, 26 Nov 2019 17:27:27 GMT] [info] [<0.000.0>] ::1 - - GET /database-rxdb-0-settings/closeToTray 304
+[Tue, 26 Nov 2019 18:15:53 GMT] [info] [<0.000.0>] ::1 - - GET /database-rxdb-0-settings/closeToTray 304
+[Tue, 26 Nov 2019 18:15:55 GMT] [info] [<0.000.0>] ::1 - - GET /database-rxdb-0-settings/closeToTray 304
+[Tue, 26 Nov 2019 18:15:56 GMT] [info] [<0.000.0>] ::1 - - GET /database-rxdb-0-settings/closeToTray 304
+[Tue, 26 Nov 2019 18:15:56 GMT] [info] [<0.000.0>] ::1 - - GET /database-rxdb-0-settings/closeToTray 304
+[Tue, 26 Nov 2019 19:12:09 GMT] [info] [<0.000.0>] ::1 - - GET /database-rxdb-0-settings/closeToTray 304
+[Tue, 26 Nov 2019 20:55:03 GMT] [info] [<0.000.0>] ::1 - - GET /database-rxdb-0-settings 200

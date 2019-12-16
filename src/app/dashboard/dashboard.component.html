@@ -1,0 +1,44 @@
+<div class="container">
+  <mat-sidenav-container class="sidenav-container"> <!-- TODO: Fix styling of sidenav -->
+    <mat-sidenav mode="side" opened></mat-sidenav>
+    <mat-sidenav-content>
+      <mat-accordion class="headers-align" multi>
+        <mat-expansion-panel expanded>
+          <mat-expansion-panel-header>
+            <mat-panel-title>Chatsync Sessions</mat-panel-title>
+            <mat-panel-description>
+              Active: <!-- TODO: Add session count -->
+              <mat-icon svgIcon="app:add"></mat-icon> <!-- TODO: connect icon -->
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+          <mat-selection-list>
+            <mat-list-item> <!-- TODO: Use *ngFor to dynamically create chatsync session list -->
+              <img matListAvatar src="..." alt="...">
+              <h4 matLine> Session Name </h4>
+              <span matLine> Session Streamers </span>
+            </mat-list-item>
+          </mat-selection-list>
+        </mat-expansion-panel>
+        <mat-expansion-panel expanded>
+          <mat-expansion-panel-header>
+            <mat-panel-title>Bots</mat-panel-title>
+            <mat-panel-description>
+              Active: <!-- TODO: Add bot count -->
+              <mat-icon svgIcon="app:add"></mat-icon> <!-- TODO: connect icon -->
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+          <mat-selection-list>
+            <mat-list-item> <!-- TODO: Use *ngFor to dynamically create bot list -->
+              <img matListAvatar src="..." alt="...">
+              <h4 matLine> Bot Name </h4>
+              <span matLine> Platform </span>
+            </mat-list-item>
+          </mat-selection-list>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+
+  <!-- TODO: Add control panel -->
+
+</div>

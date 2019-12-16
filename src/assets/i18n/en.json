@@ -1,7 +1,10 @@
 {
+  "APP": {
+    "TITLE": "Streamers Toolbox"
+  },
   "PAGES": {
-      "HOME": {
-          "TITLE": "App works !"
+      "DASHBOARD": {
+
       }
   }
 }

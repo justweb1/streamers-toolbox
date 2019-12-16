@@ -1,0 +1,19 @@
+<mat-toolbar class="draggable" color="primary" >
+  <span class="not-draggable">
+    <img class="logo" src="../../favicon.png" />
+    {{ 'APP.TITLE' | translate }}
+  </span> <!-- TODO: Add Logo and potentially remove the name. -->
+  <span class="remaining-space"></span>
+  <span class="not-draggable">
+    <button mat-button>
+      <mat-icon svgIcon="app:minimize" (click)="win.minimize()"></mat-icon>
+    </button>
+    <button mat-button>
+      <mat-icon svgIcon="app:window-restore" (click)="unmaximize()" *ngIf="isMaximized"></mat-icon>
+      <mat-icon svgIcon="app:window-maximize" (click)="maximize()" *ngIf="!isMaximized"></mat-icon>
+    </button>
+    <button mat-button>
+      <mat-icon svgIcon="app:window-close" (click)="win.close()"></mat-icon>
+    </button>
+  </span>
+</mat-toolbar>

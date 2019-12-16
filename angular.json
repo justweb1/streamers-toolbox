@@ -166,7 +166,7 @@
       }
     }
   },
-  "defaultProject": "angular-electron",
+  "defaultProject": "streamers-toolbox",
   "schematics": {
     "@schematics/angular:component": {
       "prefix": "app",

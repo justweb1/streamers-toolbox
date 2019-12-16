@@ -1,0 +1,29 @@
+@import '../../../node_modules/@angular/material/prebuilt-themes/indigo-pink.css';
+
+.remaining-space {
+  flex: 1 1 auto;
+}
+
+mat-toolbar {
+  height: 35px;
+}
+
+.draggable {
+  -webkit-app-region: drag;
+}
+
+.not-draggable {
+  -webkit-app-region: no-drag;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  vertical-align: top;
+}
+
+.mat-button {
+  width: 35px;
+  height: 35px;
+}
+

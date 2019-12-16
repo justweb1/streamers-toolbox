@@ -5,5 +5,21 @@
 
 export const AppConfig = {
   production: false,
-  environment: 'DEV'
+  environment: 'DEV',
+  twitch: {
+    'client_id': '',
+    'client_secret': '',
+  },
+  discord: {
+    'client_id': '',
+    'client_secret': '',
+  },
+  twitter: {
+    'client_id': '',
+    'client_secret': '',
+  },
+  mixer: {
+    'client_id': '',
+    'client_secret': '',
+  },
 };
