@@ -4,6 +4,11 @@ interface Streamer {
   platform: 'twitch' | 'mixer' | 'twitter' | 'discord';
 }
 
+interface Session {
+  name: string;
+  streamers: Array<Streamer>;
+}
+
 export class ChatsyncSession {
   sessions = [
     {
