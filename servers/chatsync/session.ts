@@ -1,4 +1,4 @@
-import { Session, Streamer } from './interface';
+import { Session, Streamer } from './interfaces';
 
 
 export class ChatsyncSession {
