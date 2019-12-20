@@ -1,6 +1,8 @@
 import { app, BrowserWindow, screen, Tray, Menu, remote } from 'electron';
 import { getDatabase } from './servers/database/database';
 import { getAngularUrl } from './modules/utils/utils';
+import * as dotenv from 'dotenv';
+
 
 // Import RxDB
 import RxDB, {
@@ -28,6 +30,16 @@ const activeChatSyncCount = 1;
 const args = process.argv.slice(1);
 serve = args.some(val => val === '--serve');
 
+if (serve) {
+  dotenv.config({
+    path: './.env'
+  });
+} else {
+  dotenv.config({
+    path: './.env.production'
+  });
+}
+console.log(process.env.NODE_ENV);
 
 // Disables the main menu.
 const menu = new Menu();

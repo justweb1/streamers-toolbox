@@ -2,6 +2,7 @@
 
 # compiled output
 /dist
+/.dist
 /tmp
 /out-tsc
 /app-builds
@@ -11,6 +12,8 @@ src/**/*.js
 !src/karma.conf.js
 *.js
 *.js.map
+.env
+.env.production
 
 # dependencies
 /node_modules
