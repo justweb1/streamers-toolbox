@@ -14,7 +14,7 @@
     "typescript",
     "sass"
   ],
-  "main": "main.js",
+  "main": "build/main.js",
   "private": true,
   "scripts": {
     "postinstall": "electron-builder install-app-deps",
